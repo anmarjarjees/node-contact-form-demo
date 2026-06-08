@@ -1,0 +1,120 @@
+/* 
+CSS File:
+*********
+Color Palette:
+- #F5F1EC => Page background
+- #D8CBBE => Card / section background
+- #3A2F28 => Primary text color
+- #7D5A50 => Buttons and accents
+*/
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page base styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    background-color: #F5F1EC;
+    color: #3A2F28;
+    padding: 25px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: #3A2F28;
+    margin-bottom: 5px;
+}
+
+/* Main container */
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* .icon-img */
+.icon-img {
+    display: block;
+    width: 40%;
+    max-width: 300px;
+    border: 2px solid #3A2F28;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin: 0 auto 20px auto;
+}
+
+/* Contact section */
+#contact {
+    background: #D8CBBE;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    /* Link: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow */
+}
+
+/* Form layout */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #3A2F28;
+}
+
+/* Input fields */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7D5A50;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #3A2F28;
+    background-color: #FFFFFF;
+}
+
+/* Focus state */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3A2F28;
+}
+
+/* Button */
+.btn {
+    padding: 10px;
+    border: none;
+    background: #7D5A50;
+    color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Button hover */
+.btn:hover {
+    background: #684841;
+}
+
+/* Status message */
+.form-status {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3A2F28;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #3A2F28;
+}

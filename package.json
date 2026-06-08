@@ -1,0 +1,36 @@
+{
+  "name": "contact-form-demo",
+  "version": "1.0.0",
+  "description": "A demo project using Node.js, Express, and Nodemailer for secure contact form handling",
+  "keywords": [
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "Nodemailer",
+    "Contact Form",
+    "SMTP",
+    "Backend",
+    "Full Stack"
+  ],
+  "homepage": "https://github.com/anmarjarjees/node-contact-form-demo#readme",
+  "bugs": {
+    "url": "https://github.com/anmarjarjees/node-contact-form-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmarjarjees/node-contact-form-demo.git"
+  },
+  "license": "ISC",
+  "author": "Anmar Jarjees",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "nodemailer": "^8.0.10"
+  }
+}
